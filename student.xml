@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<university>
+    <studentList>
+        <student>
+            <jahrgang>2017</jahrgang>
+            <title>Michael Erharter</title>
+            <alter>25</alter>
+            <PKZ>123123</PKZ>
+        </student>
+        <student>
+            <jahrgang>2017</jahrgang>
+            <title>Kris Raich</title>
+            <alter>25</alter>
+            <PKZ>123123</PKZ>
+        </student>
+        <student>
+            <jahrgang>2017</jahrgang>
+            <title>Paul Paul</title>
+            <alter>25</alter>
+            <PKZ>123123</PKZ>
+        </student>
+        <student>
+            <jahrgang>2017</jahrgang>
+            <title>Phil Magnum</title>
+            <alter>25</alter>
+            <PKZ>123123</PKZ>
+        </student>
+        <student>
+            <jahrgang>2017</jahrgang>
+            <title>Bobby Bob</title>
+            <alter>25</alter>
+            <PKZ>123123</PKZ>
+        </student>
+    </studentList>
+    <name>FH Kufstein</name>
+</university>
