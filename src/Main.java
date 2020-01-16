@@ -1,4 +1,3 @@
-import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
@@ -19,19 +18,27 @@ public class Main {
         list.add(s3);
         list.add(s4);
         list.add(s5);
+        FileOutputStream fos = null;
+        ObjectOutputStream oos = null;
 
         try
         {
 
-            FileOutputStream fos = new FileOutputStream("student.txt");
-            ObjectOutputStream oos = new ObjectOutputStream(fos);
+            fos = new FileOutputStream("student.txt");
+            oos = new ObjectOutputStream(fos);
             oos.writeObject(list);
-            oos.close();
-            fos.close();
+
         }
         catch (Exception e)
         {
             e.printStackTrace();
+        }finally {
+            try {
+                oos.close();
+                fos.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
     }
 }

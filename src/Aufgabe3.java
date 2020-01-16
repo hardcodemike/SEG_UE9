@@ -1,10 +1,6 @@
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.xml.sax.*;
-import com.fasterxml.*;
-
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
 
 public class Aufgabe3 {
     public static void main(String[] args) {
